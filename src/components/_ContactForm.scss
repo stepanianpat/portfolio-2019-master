@@ -1,0 +1,112 @@
+.contact-section {
+  text-align: center;
+
+  .contact-section {
+    background-color: #fff;
+  }
+
+  label {
+    font-family: 'Camphor', Open Sans, Segoe UI, sans-serif;
+  }
+
+  .contact:nth-child(1) {
+    text-align: left;
+  }
+
+  .contact {
+    display: inline-block;
+    vertical-align: top;
+    width: 27vw;
+    margin: 0 2vw;
+
+    @include mobile {
+      display: inline-block;
+      vertical-align: top;
+      width: 80vw;
+      margin: 0 2vw;
+    }
+  }
+
+  .contact {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    font-size: 18px;
+    outline: 0;
+    border: 1px #bbb solid;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #5a5959;
+  }
+
+  #send {
+    margin-top: 0;
+  }
+
+  #no-name-no-email,
+  #no-name,
+  #no-email,
+  #bad-email {
+    display: none;
+  }
+
+  #send-no {
+    float: left;
+  }
+
+  .yesno {
+    display: none;
+    width: 48%;
+  }
+
+  #send-yes {
+    float: right;
+  }
+
+  .gap {
+    margin-bottom: 20px;
+  }
+
+  .contact-link {
+    display: inline-block;
+  }
+}
+
+input[type='submit'] {
+  font-size: 1.1rem;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: $purple;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+input[type='submit']:hover {
+  background: $highlighterGreen;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+#submitted {
+  display: none;
+  margin-top: -15px;
+  padding: 0 4%;
+}
+
+#bye {
+  padding: 7vh 0;
+  background-color: #333;
+  text-align: center;
+}
