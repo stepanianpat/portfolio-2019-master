@@ -3,10 +3,22 @@ import windowProj from 'images/windowProj.png';
 import pongPortfolio from 'images/pongPortfolio.png';
 import githubFinder from 'images/githubFinder.png';
 import portfolioProj from 'images/portfolioProj.png';
+import danielArmen from 'images/danielArmen.jpg';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
 export default [
+  {
+    title: 'DANIEL  ARMEN',
+    description:
+      'DANIEL ARMEN is a responsive react app made for a local real estate agent that allows potential clients to view past, present, and future real estate listings. It also allows visitros to learn more about the agent and what they can offer their clients. With an incredible asthetic, DANIEL ARMEN was designed to give visitors a unique website viewing experience as they navigate through the site. ',
+    skills: ['ReactJs', 'Sass'],
+    image: danielArmen,
+    links: {
+      github: 'https://github.com/stepanianpat/daniel-armen-temp',
+      preview: 'https://daniel-armen-temp.firebaseapp.com/',
+    },
+  },
   {
     title: 'Xotic Pop',
     description:
