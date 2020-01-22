@@ -29,6 +29,7 @@
     "@fortawesome/fontawesome-free-solid": "5.0.13",
     "@fortawesome/react-fontawesome": "0.0.20",
     "line-awesome": "github:icons8/line-awesome",
+    "react-ga": "^2.7.0",
     "react-reveal": "^1.2.2",
     "react-scrollchor": "5.1.0"
   }
